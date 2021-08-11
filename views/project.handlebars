@@ -1,0 +1,29 @@
+<div class="text-center">
+  <h2>{{name}}</h2>
+  <p>{{{get_emoji}}}</p>
+  <p>{{description}}</p>
+  <p>{{manager}}</p>
+  <p>Created by {{user.name}} on {{format_date date_created}}</p>
+  <p>
+    <span for="img" aria-label="money">⬆️</span>
+    <span class="dollar-amount">{{format_amount needed_funding}}</span>
+    Priority
+  </p>
+  {{#if is_completed}}
+  <p>Task Complete</p> 
+  {{else}}
+  {{!-- <p>
+    <button class="btn btn-primary" type="button" data-id="{{project.id}}">Complete task</button>
+  </p> --}}
+  <form>
+    <input type="hidden" name="task-complete" value="true"/>
+    <button class="btn btn-lg btn-success task-complete" type="submit">
+        Complete 
+    </button>
+</form>
+  {{/if}}
+</div>
+<script>
+  var id={{id}};
+</script>
+<script src="/js/completeBtn.js"></script>

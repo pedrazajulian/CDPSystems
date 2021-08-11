@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Tyler Durden",
+    "email": "Tdurden@hotmail.com",
+    "password": "password12345"
+  },
+  {
+    "name": "Scott Sumers",
+    "email": "ssumers@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "name": "Solid Snake",
+    "email": "MGS1@aol.com",
+    "password": "password12345"
+  }
+]

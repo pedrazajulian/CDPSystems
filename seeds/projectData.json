@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Employee safety August",
+    "description": "Complete montly safety video for all employees.",
+    "needed_funding": 3,
+    "manager": "Joshua"
+  },
+  {
+    "name": "Audit i9's ",
+    "description": "Complete audit of i9 for federal regulations ",
+    "needed_funding": 2,
+    "manager": "Andres"
+  },
+  {
+    "name": "Email Merge/update 1",
+    "description": "emails need to be merge with new teams software for all employees. ",
+    "needed_funding": 1,
+    "manager": "David"
+  }
+]
